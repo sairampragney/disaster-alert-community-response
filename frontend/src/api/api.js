@@ -1,7 +1,7 @@
 // Centralized API client for talking to the backend REST API.
 // All requests go to the Express backend running on http://localhost:5000
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://disaster-alert-community-response.onrender.com/api";
 
 async function handleResponse(response) {
   let body;
